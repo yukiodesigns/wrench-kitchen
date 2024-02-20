@@ -8,7 +8,8 @@ const Footer = () => {
           {/* First section */}
           <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">
             <div className="mb-2">
-              <Image src="/logo.png" alt="Logo" width={120} height={40} />
+              <h1 className='text-xl'>Wrench Kitchen</h1>
+              {/* <Image src="/logo.png" alt="Logo" width={120} height={40} /> */}
             </div>
             <p className="text-sm text-center md:text-left">Spice Up Your Culinary Adventure </p>
           </div>
