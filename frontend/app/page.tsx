@@ -1,10 +1,10 @@
-import Hero from "@/components/shared/Hero";
-import Image from "next/image";
+import Landing from "@/components/Landing";
+
 
 export default function Home() {
   return (
     <>
-    <Hero />
+    <Landing />
     </>
   );
 }
