@@ -14,7 +14,7 @@ const Landing = () => {
         <Featured />
         <Product />
         <CTA />
-        <Testimonials />
+        {/* <Testimonials /> */}
     </div>
   )
 }

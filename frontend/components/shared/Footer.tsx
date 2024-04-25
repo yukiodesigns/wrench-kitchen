@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../app/globals.css'
+
 const Footer = () => {
   return (
     <>
@@ -14,13 +15,12 @@ const Footer = () => {
               />
             </a>
             <div className="text-center font-semibold">
-              <a href="#" className="inline-block px-4 py-2 font-normal transition ">Home</a>
-              <a href="#" className="inline-block px-4 py-2 font-normal transition ">About</a>
-              <a href="#" className="inline-block px-4 py-2 font-normal transition">Products</a>
-              <a href="#" className="inline-block px-4 py-2 font-normal  transition ">Terms of Service</a>
-              <a href="#" className="inline-block px-4 py-2 font-normal transition">Contact</a>
+              <a href="/" className="inline-block px-4 py-2 font-normal transition ">Home</a>
+              <a href="/about" className="inline-block px-4 py-2 font-normal transition ">About</a>
+              <a href="/shop" className="inline-block px-4 py-2 font-normal transition">Products</a>
+              <a href="/terms" className="inline-block px-4 py-2 font-normal  transition ">Terms of Service</a>
+              <a href="/contact" className="inline-block px-4 py-2 font-normal transition">Contact</a>
             </div>
-            {/* <div className="my-4 border-b-2 w-48 bg-black"></div> */}
             <div className="my-4 grid grid-cols-3 gap-4">
               <a href="#" className="flex items-center justify-center">
                 <img
