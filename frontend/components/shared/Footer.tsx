@@ -1,60 +1,55 @@
-import React from 'react'
-import Image from 'next/image';
-
+import React from 'react';
+import '../../app/globals.css'
 const Footer = () => {
-    return (
-      <footer className="bg-gray-800 text-white py-4">
-        <div className="container mx-auto flex flex-col md:flex-row items-start md:items-center justify-between px-4 ">
-          {/* First section */}
-          <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">
-            <div className="mb-2">
-              <h1 className='text-xl'>Wrench Kitchen</h1>
-              {/* <Image src="/logo.png" alt="Logo" width={120} height={40} /> */}
+  return (
+    <>
+      <footer className="block ">
+        <div className="py-4 md:py-12 lg:py-16 mx-auto w-full max-w-7xl px-5 md:px-10">
+          <div className="flex-col flex items-center">
+            <a href="#" className="mb-2 inline-block max-w-full ">
+              <img
+                src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94d6f4e6cf96_Group%2047874-3.png"
+                alt=""
+                className="inline-block max-h-10"
+              />
+            </a>
+            <div className="text-center font-semibold">
+              <a href="#" className="inline-block px-4 py-2 font-normal transition ">Home</a>
+              <a href="#" className="inline-block px-4 py-2 font-normal transition ">About</a>
+              <a href="#" className="inline-block px-4 py-2 font-normal transition">Products</a>
+              <a href="#" className="inline-block px-4 py-2 font-normal  transition ">Terms of Service</a>
+              <a href="#" className="inline-block px-4 py-2 font-normal transition">Contact</a>
             </div>
-            <p className="text-sm text-center md:text-left">Spice Up Your Culinary Adventure </p>
-          </div>
-          
-          {/* Second section */}
-          <div className="w-full md:w-auto mb-4 md:mb-0 md:mr-4">
-            {/* Google Maps iframe */}
-            <iframe
-                className="w-full h-40 md:h-64 rounded-lg"
-                loading="lazy"
-                allowFullScreen
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.1436937483996!2d36.82194661477156!3d-1.2865644990672618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f182a5b3d73ad%3A0x4b48fc9c34bf95c2!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2s!4v1644938608622!5m2!1sen!2s"
-                title="Map of Nairobi"
-            ></iframe>
-           </div>
-          
-          {/* Third section */}
-          <div className="w-full md:w-auto">
-            <div className="mb-4 md:mb-0 md:mr-4">
-              {/* Contact details with icons */}
-              <div className="flex items-center mb-2 ">
-                <Image src="/icons/maps-and-flags.png" alt='map' width={20} height={20} className='mr-4'/>
-                <p>Nairobi, Kenya</p>
-              </div>
-              <div className="flex items-center mb-2">
-                <Image src="/icons/mail.png" alt='map' width={20} height={20} className='mr-4'/>
-                <p>info@gmail.com</p>
-              </div>
-              <div className="flex items-center">
-                <Image src="/icons/phone-call.png" alt='map' width={20} height={20} className='mr-4'/>
-                <p>+254 794 843163</p>
-              </div>
+            {/* <div className="my-4 border-b-2 w-48 bg-black"></div> */}
+            <div className="my-4 grid grid-cols-3 gap-4">
+              <a href="#" className="flex items-center justify-center">
+                <img
+                  src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a945b4ae6cf7b_Vector-1.svg"
+                  alt=""
+                  className="h-6"
+                />
+              </a>
+              <a href="#" className="flex items-center justify-center">
+                <img
+                  src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a945560e6cf77_Vector.svg"
+                  alt=""
+                  className="h-6"
+                />
+              </a>
+              <a href="#" className="flex items-center justify-center text-black">
+                <img
+                  src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a9433a9e6cf88_Vector-2.svg"
+                  alt=""
+                  className="h-6"
+                />
+              </a>
             </div>
+            <p className="text-sm">© Copyright 2024. <span className='text-blue-400'>Yukios Designs.</span> All rights reserved</p>
           </div>
-        </div>
-        
-        {/* Horizontal line */}
-        <hr className="my-4 border-t border-gray-300" />
-        
-        {/* Copyright */}
-        <div className="text-center text-sm">
-          <p>&copy; 2024 Yukios Designs. All Rights Reserved.</p>
         </div>
       </footer>
-    );
-  };
-  
-  export default Footer;
+    </>
+  );
+};
+
+export default Footer;
