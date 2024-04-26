@@ -75,3 +75,27 @@
   }
 }
 
+body{
+  background-color: #E0E7FF;
+  
+}
+
+nav{
+  background-color: #90EE90;
+  color: #6C757D;
+}
+footer{
+  background-color: #F5F5DC;
+}
+a:hover{
+  color:#FFFF99 ;
+}
+button{
+  background-color: #FF6F61;
+}
+h5{
+  color: #5D4037;
+}
+icon{
+  background-color: #FFD1DC;
+}
