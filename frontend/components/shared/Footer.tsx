@@ -4,7 +4,7 @@ import '../../app/globals.css'
 const Footer = () => {
   return (
     <>
-      <footer className="block ">
+      <footer className="block fixed bottom-0 w-full ">
         <div className="py-4 md:py-12 lg:py-16 mx-auto w-full max-w-7xl px-5 md:px-10">
           <div className="flex-col flex items-center">
             <a href="#" className="mb-2 inline-block max-w-full ">
